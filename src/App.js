@@ -3,6 +3,7 @@ import './styles/App.css';
 
 // components
 import Landing from './components/landing';
+import AnimatedMenu from './components/menu';
 
 
 class App extends Component {
@@ -10,6 +11,7 @@ class App extends Component {
     return (
       <div className="app">
         <Landing/>
+        <AnimatedMenu/>
       </div>
     );
   }
