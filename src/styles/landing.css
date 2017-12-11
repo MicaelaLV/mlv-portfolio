@@ -1,0 +1,59 @@
+.landing {
+	font-size: 1.3em;
+	height: 90%;
+	margin: 0 auto;
+	text-align: center;
+	text-transform: capitalize;
+	width: 90%;
+}
+
+.personal-icon-container {
+	padding-top: 15%;
+}
+
+.my-icon {
+	height: 250px;
+	margin: 0 auto;
+}
+
+.hello {
+	margin: .5em 0;
+}
+
+.introduction {
+	margin: 0;
+}
+
+.name {
+	font-size: 1.4em;
+	font-weight: 500;
+	margin-left: .3em;
+}
+
+.description {
+	margin: .5em 0;
+}
+
+.em {
+	margin: .4em;
+}
+
+.social-links-container {
+	margin: 1.5em 0;
+}
+
+a.social-logo {
+	text-decoration: none;
+	cursor: pointer;
+	margin: 0 1em;
+}
+
+a.social-logo:hover {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+a.social-logo:active{
+	text-decoration: none;
+	cursor: pointer;
+}
