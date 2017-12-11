@@ -9,11 +9,12 @@ class AnimatedMenu extends React.Component {
 
   render() {
     return (
-      <Menu width={ '20%' } isOpen={ false }>
-        <a id="home" className="menu-item" href="/">Home</a>
-        <a id="about" className="menu-item" href="/about">About</a>
-        <a id="contact" className="menu-item" href="/contact">Contact</a>
-        <a onClick={ this.showSettings } className="menu-item--small" href="">Settings</a>
+      <Menu width={ '14%' } isOpen={ false }>
+        <a id="home" className="menu-item" href="/">Hello</a>
+        <a id="skills" className="menu-item" href="/skills">Skills</a>
+        <a id="portfolio" className="menu-item" href="/portfolio">Portfolio</a>
+        <a id="about" className="menu-item" href="/about">About me</a>
+        <a id="contact" className="menu-item" href="/contact">Get in Touch</a>
       </Menu>
     )
   }
