@@ -1,14 +1,17 @@
 .landing {
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 1.3em;
 	height: 90%;
 	margin: 0 auto;
 	text-align: center;
 	text-transform: capitalize;
 	width: 100%;
+	font-weight: 100;
 }
 
 .personal-icon-container {
-	padding-top: 15%;
+	padding-top: 14%;
 }
 
 .my-icon {
@@ -16,12 +19,9 @@
 	margin: 0 auto;
 }
 
-.hello {
-	margin: .5em 0;
-}
-
 .introduction {
-	margin: 0;
+	margin: 0.5em 0 0 0 ;
+	font-size: 1em;
 }
 
 .name {
@@ -31,11 +31,12 @@
 }
 
 .description {
-	margin: .5em 0;
+	margin: .3em 0;
 }
 
 .em {
-	margin: .4em;
+	height: 25px;
+	margin-bottom: 5px;
 }
 
 .social-links-container {
