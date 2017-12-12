@@ -1,14 +1,10 @@
 import React from 'react';
-import '../styles/landing.css';
+import '../styles/home.css';
 
-import AnimatedMenu from './menu';
-
-
-class Landing extends React.Component {
+class Home extends React.Component {
   render( ) {
     return (
       <section className="landing">
-
 
         <div className="personal-icon-container">
           <img src="../images/mic-icon.png" className="my-icon" alt="personal-icon"/>
@@ -51,4 +47,4 @@ class Landing extends React.Component {
   }
 }
 
-export default Landing;
+export default Home;

@@ -1,0 +1,60 @@
+.landing {
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.3em;
+	height: 90%;
+	margin: 0 auto;
+	text-align: center;
+	text-transform: capitalize;
+	width: 100%;
+	font-weight: 100;
+}
+
+.personal-icon-container {
+	padding-top: 14%;
+}
+
+.my-icon {
+	height: 250px;
+	margin: 0 auto;
+}
+
+.introduction {
+	margin: 0.5em 0 0 0 ;
+	font-size: 1em;
+}
+
+.name {
+	font-size: 1.4em;
+	font-weight: 500;
+	margin-left: .3em;
+}
+
+.description {
+	margin: .3em 0;
+}
+
+.em {
+	height: 25px;
+	margin-bottom: 5px;
+}
+
+.social-links-container {
+	margin: 1.5em 0;
+}
+
+a.social-logo {
+	text-decoration: none;
+	cursor: pointer;
+	margin: 0 1em;
+}
+
+a.social-logo:hover {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+a.social-logo:active{
+	text-decoration: none;
+	cursor: pointer;
+}

@@ -19,13 +19,37 @@
   background: #2E2B33;
 }
 
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: fixed;
+  width: 66px;
+  height: 60px;
+  left: 50px;
+  top: 4%;
+  z-index: 3;
+}
+
+.bm-burger-button:hover {
+  height: 65px;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #2E2B33;
+}
+
 /* General sidebar styles */
 .bm-menu {
   background: #fff;
   padding: 2.5em 0;
   font-size: 1.15em;
   text-align: center;
-  left: 40px;
 }
 
 /* Morph shape necessary with bubble or elastic */
@@ -36,7 +60,8 @@
 /* Wrapper for item list */
 .bm-item-list {
   color: #fff;
-  padding: 0.8em;
+  padding: 1em 0;
+  margin: 0 auto;
 }
 
 /* Styling of overlay */
@@ -44,18 +69,20 @@
   background: RGBA(227, 231, 234, .2);
 }
 
-a.menu-item {
+li.menu-item {
   font-size: .8em;
+  list-style-type: none;
   margin: .5em 0;
-  text-decoration: none;
 	color: #00AAFF;
   font-weight: 500;
+  text-decoration: none;
   text-shadow: 1px 1px 1px RGBA(227, 231, 234, .2);
 }
 
-a.menu-item:hover {
+li.menu-item:hover {
   color: #2E2B33;
   font-size: .85em;
+  text-decoration: none;
   text-shadow: 1px 1px 1px RGBA(227, 231, 234, .2);
 }
 
@@ -68,6 +95,26 @@ a.menu-item:hover {
 .copy {
   color: #2E2B33;
   font-size: 0.4em;
+  list-style-type: none;
   margin-top: 20%;
   text-decoration: none;
+}
+
+ul {
+  margin: 0 auto;
+  padding: 10px 50px;
+}
+
+a {
+  font-size: 1.2em;
+  list-style-type: none;
+	color: #00AAFF;
+  font-weight: 500;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px RGBA(227, 231, 234, .2); 
+  text-decoration: none;
+}
+
+a:active{
+  color: #49C2C4;
 }
