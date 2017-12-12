@@ -1,14 +1,10 @@
 import React from 'react';
 import '../styles/landing.css';
 
-import AnimatedMenu from './menu';
-
-
 class Landing extends React.Component {
   render( ) {
     return (
       <section className="landing">
-        <AnimatedMenu/>
 
         <div className="personal-icon-container">
           <img src="../images/mic-icon.png" className="my-icon" alt="personal-icon"/>

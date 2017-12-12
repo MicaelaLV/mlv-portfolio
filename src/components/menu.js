@@ -1,6 +1,16 @@
 import React from 'react';
+import { BrowserRouter as Router,
+          Route,
+          Link } from 'react-router-dom';
+          
 import '../styles/menu.css';
-import { bubble as Menu } from 'react-burger-menu'
+import { bubble as Menu } from 'react-burger-menu';
+
+import Landing from './landing';
+import Skills from './skills';
+import Portfolio from './portfolio';
+import About from './about';
+import Contacts from './contacts';
 
 class AnimatedMenu extends React.Component {
   showSettings (event) {
@@ -9,19 +19,45 @@ class AnimatedMenu extends React.Component {
 
   render() {
     return (
-      <Menu width={ '14%' } isOpen={ false } customBurgerIcon={ <img src="../images/burger.png" alt="burger-icon"/> } >
-        <a className="menu-item mic" href="/"> 
-          <img src="../images/mic-icon.png" alt="mic logo" className="mic"/>
-        </a>
-        <a id="home" className="menu-item" href="/">Hello</a>
-        <a id="skills" className="menu-item" href="/skills">Skills</a>
-        <a id="portfolio" className="menu-item" href="/portfolio">Portfolio</a>
-        <a id="about" className="menu-item" href="/about">About me</a>
-        <a id="contact" className="menu-item" href="/contact">Contacts</a>
-        <a id="copywrite" className="copy" href="/"> @ MLV 2017</a>
-      </Menu>
+      <Router>
+        <Menu width={ '14%' } isOpen={ false } customBurgerIcon={ <img src="../images/burger.png" alt="burger-icon"/> } >
+          <ul>
+          <li className="menu-item mic"> 
+            <img src="../images/mic-icon.png" alt="mic logo" className="mic"/>
+          </li>
+          <li id="home" className="menu-item">
+            <Link to="/">Hello</Link>
+          </li>
+          <li id="skills" className="menu-item">
+            <Link to="/skills">Skills</Link>
+          </li>
+          <li id="portfolio" className="menu-item">
+            <Link to="/portfolio">Portfolio</Link>
+          </li>
+          <li id="about" className="menu-item">
+            <Link to="/about">About me</Link>
+          </li>
+          <li id="contact" className="menu-item">
+            <Link to="/contacts" className="link">Contacts</Link>
+          </li>
+          <li id="copywrite" className="copy"> @ MLV 2017</li>
+          </ul>
+
+        {/* <Route exact path="/" component={Landing}/> */}
+        <Route path="/skills" component={Skills}/>
+        <Route path="/portfolio" component={Portfolio}/>
+        <Route path="/about" component={About}/>
+        <Route path="/contacts" component={Contacts}/>
+
+        </Menu>
+      </Router>
+
+
+
     )
   }
 }
 
 export default AnimatedMenu;
+
+
