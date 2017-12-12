@@ -8,6 +8,10 @@
   z-index: 3;
 }
 
+.bm-burger-button:hover {
+  height: 65px;
+}
+
 /* Position and sizing of clickable cross button */
 .bm-cross-button {
   height: 24px;
