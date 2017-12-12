@@ -1,16 +1,8 @@
 import React from 'react';
-import { BrowserRouter as Router,
-          Route,
-          Link } from 'react-router-dom';
-          
-import '../styles/menu.css';
-import { bubble as Menu } from 'react-burger-menu';
+import { Link } from 'react-router-dom';
 
-import Landing from './landing';
-import Skills from './skills';
-import Portfolio from './portfolio';
-import About from './about';
-import Contacts from './contacts';
+import { bubble as Menu } from 'react-burger-menu';
+import '../styles/menu.css';
 
 class AnimatedMenu extends React.Component {
   showSettings (event) {
@@ -19,45 +11,32 @@ class AnimatedMenu extends React.Component {
 
   render() {
     return (
-      <Router>
-        <Menu width={ '14%' } isOpen={ false } customBurgerIcon={ <img src="../images/burger.png" alt="burger-icon"/> } >
-          <ul>
-          <li className="menu-item mic"> 
-            <img src="../images/mic-icon.png" alt="mic logo" className="mic"/>
-          </li>
-          <li id="home" className="menu-item">
-            <Link to="/">Hello</Link>
-          </li>
-          <li id="skills" className="menu-item">
-            <Link to="/skills">Skills</Link>
-          </li>
-          <li id="portfolio" className="menu-item">
-            <Link to="/portfolio">Portfolio</Link>
-          </li>
-          <li id="about" className="menu-item">
-            <Link to="/about">About me</Link>
-          </li>
-          <li id="contact" className="menu-item">
-            <Link to="/contacts" className="link">Contacts</Link>
-          </li>
-          <li id="copywrite" className="copy"> @ MLV 2017</li>
-          </ul>
-
-        {/* <Route exact path="/" component={Landing}/> */}
-        <Route path="/skills" component={Skills}/>
-        <Route path="/portfolio" component={Portfolio}/>
-        <Route path="/about" component={About}/>
-        <Route path="/contacts" component={Contacts}/>
-
-        </Menu>
-      </Router>
-
-
-
+          <Menu width={ '14%' } isOpen={ false } customBurgerIcon={ <img src="../images/burger.png" alt="burger-icon"/> } >
+            <ul>
+            <li className="menu-item mic"> 
+              <img src="../images/mic-icon.png" alt="mic logo" className="mic"/>
+            </li>
+            <li id="home" className="menu-item">
+              <Link to="/home">Hello</Link>
+            </li>
+            <li id="skills" className="menu-item">
+              <Link to="/skills">Skills</Link>
+            </li>
+            <li id="portfolio" className="menu-item">
+              <Link to="/portfolio">Portfolio</Link>
+            </li>
+            <li id="about" className="menu-item">
+              <Link to="/about">About me</Link>
+            </li>
+            <li id="contact" className="menu-item">
+              <Link to="/contacts" className="link">Contacts</Link>
+            </li>
+            <li id="copywrite" className="copy"> @ MLV 2017</li>
+            </ul>
+          </Menu>
     )
   }
 }
 
 export default AnimatedMenu;
-
 

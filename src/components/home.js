@@ -1,7 +1,7 @@
 import React from 'react';
-import '../styles/landing.css';
+import '../styles/home.css';
 
-class Landing extends React.Component {
+class Home extends React.Component {
   render( ) {
     return (
       <section className="landing">
@@ -47,4 +47,4 @@ class Landing extends React.Component {
   }
 }
 
-export default Landing;
+export default Home;
