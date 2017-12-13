@@ -8,8 +8,7 @@ import './styles/App.css';
 
 // components
 import AnimatedMenu from './components/menu';
-
-import Landing from './components/landing';
+import Home from './components/home';
 import Skills from './components/skills';
 import Portfolio from './components/portfolio';
 import About from './components/about';
@@ -23,10 +22,7 @@ class App extends Component {
           <div>
           <AnimatedMenu/>
           <Switch>
-            
-
-            {/* <Route path="/home" component={Landing}/> */}
-            <Route path="/home" render={() => <h1>hi</h1>}/>
+            <Route exact path="/home" render={() => <Home/>}/>
             <Route path="/skills" component={Skills}/>
             <Route path="/portfolio" component={Portfolio}/>
             <Route path="/about" component={About}/>

@@ -5,7 +5,6 @@ class Home extends React.Component {
   render( ) {
     return (
       <section className="landing">
-
         <div className="personal-icon-container">
           <img src="../images/mic-icon.png" className="my-icon" alt="personal-icon"/>
         </div>
