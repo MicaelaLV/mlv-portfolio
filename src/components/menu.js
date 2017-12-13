@@ -1,7 +1,8 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; 
+import { Link } from 'react-router-dom';
+
+import { bubble as Menu } from 'react-burger-menu';
 import '../styles/menu.css';
-import { bubble as Menu } from 'react-burger-menu'
 
 class AnimatedMenu extends React.Component {
   showSettings (event) {
@@ -10,7 +11,7 @@ class AnimatedMenu extends React.Component {
 
   render() {
     return (
-      <Menu width={ '14%' } isOpen={ false } customBurgerIcon={ <img src="../images/burger.png" alt="burger-icon"/> } >
+          <Menu width={ '14%' } isOpen={ false } customBurgerIcon={ <img src="../images/burger.png" alt="burger-icon"/> } >
             <ul>
             <li className="menu-item mic"> 
               <img src="../images/mic-icon.png" alt="mic logo" className="mic"/>
@@ -38,3 +39,4 @@ class AnimatedMenu extends React.Component {
 }
 
 export default AnimatedMenu;
+

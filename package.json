@@ -6,7 +6,11 @@
     "react": "^16.2.0",
     "react-burger-menu": "^2.1.11",
     "react-dom": "^16.2.0",
+<<<<<<< HEAD
     "react-responsive-carousel": "^3.1.30",
+=======
+    "react-router-dom": "^4.2.2",
+>>>>>>> fd6196293b4058ca395a1e9aa150bcb7ccac0901
     "react-scripts": "1.0.17"
   },
   "scripts": {
