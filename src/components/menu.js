@@ -1,8 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router,
-         Route,
-         Link, 
-         Switch } from 'react-router-dom'; 
+import { Link } from 'react-router-dom'; 
 import '../styles/menu.css';
 import { bubble as Menu } from 'react-burger-menu'
 

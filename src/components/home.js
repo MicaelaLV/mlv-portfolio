@@ -1,17 +1,16 @@
 import React from 'react';
-import '../styles/home.css';
 
 class Home extends React.Component {
   render( ) {
     return (
-      <section className="landing">
-        <div className="personal-icon-container">
+      <section className="section-container">
+        <div className="first-container">
           <img src="../images/mic-icon.png" className="my-icon" alt="personal-icon"/>
         </div>
         <div className="description-container">
         <p className="introduction"> 
           Hello, i'm 
-          <span className="name">Micaela</span>!
+          <span className="bold">Micaela</span>!
         </p>
         <p className="description"> 
           <i className="em em-8ball"></i>

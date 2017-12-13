@@ -14,5 +14,103 @@
   100% {background-position: 0% 50%;}
 }
 
+.section-container {
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.3em;
+	height: 90%;
+	margin: 0 auto;
+	text-align: center;
+	text-transform: capitalize;
+	width: 100%;
+	font-weight: 100;
+}
 
+/* HOME PAGE */
+.first-container {
+	padding-top: 15%;
+}
 
+.my-icon {
+	height: 250px;
+	margin: 0 auto;
+}
+
+.introduction {
+	margin: 0.5em 0 0 0 ;
+	font-size: 1em;
+}
+
+.bold {
+	font-size: 1.4em;
+	font-weight: 500;
+	margin-left: .3em;
+}
+
+.description {
+	margin: .3em 0;
+}
+
+.em {
+	height: 25px;
+	margin-bottom: 5px;
+}
+
+.social-links-container {
+	margin: 1.5em 0;
+}
+
+a.social-logo {
+	text-decoration: none;
+	cursor: pointer;
+	margin: 0 1em;
+}
+
+a:hover {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+a:active{
+	text-decoration: none;
+	cursor: pointer;
+}
+
+/* SKills + Carousel */
+
+.skills-container {
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.3em;
+	height: 90%;
+	margin: 0 auto;
+	padding-top: 10%;
+	text-align: center;
+	text-transform: capitalize;
+	width: 100%;
+	font-weight: 100;
+}
+
+h2 {
+	font-size: 6rem;
+	color: #67FF6C;
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px RGBA(65, 64, 72, .2);
+}
+
+.sub-heading :first-child {
+	margin: 20px 0;
+}
+
+div.carousel.carousel-slider {
+	margin: 0 auto;
+	height: 300px;
+	padding: 0 41%;
+	position: absolute;
+}
+
+ul.thumbs.animated{
+	margin: 350px 0 0 50px;
+}
