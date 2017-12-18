@@ -1,6 +1,7 @@
 import React from 'react';
 import Slider from './carousel';
 
+
 const Skills = () => (
   <div className="section-container"> 
     <div className="skills-container">

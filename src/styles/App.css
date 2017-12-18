@@ -118,3 +118,21 @@ ul.thumbs.animated{
 .portfolio-container {
 	 padding: 14% 0 0 0;
 }
+
+/* Portfolio */
+.projects-show {
+	display: flex;
+	margin: 100px auto;
+}
+
+.project-container {
+	/* border: 2px solid #000; */
+	height: auto;
+	margin: 0 auto;
+	width: 23%;
+}
+
+/* Contacts */
+.contacts-container {
+	padding: 14% 0 0 0;
+}

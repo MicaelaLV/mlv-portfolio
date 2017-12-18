@@ -26,7 +26,7 @@ class Slider extends React.Component {
               <img src="../images/sketch.png" className="slider-pic" alt="sketch logo"/>
           </div>
           <div>
-              <img src="../images/bootstrap.png" className="slider-pic" alt="bootstrap logo"/>
+              <img src="../images/bootstrap.png" className="slider-pic" alt="bootstrap logo"/>``
           </div>
           <div>
               <img src="../images/materialize.png" className="slider-pic" alt="materialize logo"/>
